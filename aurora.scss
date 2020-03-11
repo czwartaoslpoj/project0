@@ -1,0 +1,26 @@
+$color: black;
+$secondcolor: darkblue;
+
+div1 {
+  font-size: 18px;
+  color: $color;
+}
+div2 {
+  font-family: sans-serif;
+  color: $color;
+}
+
+div3 {
+  font-size: 13px;
+  color: $secondcolor;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 40px;
+}
+body {
+  background-color: lightseagreen;
+}

@@ -1,0 +1,46 @@
+.central {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid darkolivegreen;
+}
+
+div {
+  color: maroon;
+  font-weight: bold;
+}
+
+div p {
+  font-size: 20px;
+  color: darkgreen;
+}
+
+div ul {
+  font-size: 12px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.first, .second, .third {
+  font-size: 20px;
+  border: 2px solid brown;
+  padding: 30px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 40px;
+}
+
+.first {
+  color: red;
+}
+
+.second {
+  color: blue;
+}
+
+.third {
+  color: violet;
+}
+/*# sourceMappingURL=tardigrade.css.map */

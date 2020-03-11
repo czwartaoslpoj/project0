@@ -1,0 +1,48 @@
+.central {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid darkolivegreen;
+}
+
+div {
+  color: maroon;
+  font-weight: bold;
+
+  p {
+    font-size: 20px;
+    color: darkgreen;
+  }
+
+  ul {
+    font-size: 12px;
+  }
+}
+
+p {
+  font-size: 30px;
+}
+
+%info {
+  font-size: 20px;
+  border: 2px solid brown;
+  padding: 30px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 40px;
+}
+
+.first {
+  @extend %info;
+  color: red;
+}
+
+.second {
+  @extend %info;
+  color: blue;
+}
+
+.third {
+  @extend %info;
+  color: violet;
+}
